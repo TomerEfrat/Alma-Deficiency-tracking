@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>מעקב חוסרים</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+         <img src="header-image.jpg" alt="Header Image">
+    </header>
+    <div class="container">
+        <div class="input-section">
+            <label for="skuInput">הזן מק"ט:</label>
+            <input type="text" id="skuInput" placeholder="הקלד כאן">
+            <button id="addBtn" disabled>הוסף מק"ט לרשימה</button>
+            <div id="skuList"></div>
+        </div>
+        <table id="skuTable">
+            <thead>
+                <tr>
+                    <th>מק"ט</th>
+                    <th>תאריך הוספה</th>
+                    <th>הוזמן</th>
+                    <th>הוזמן בתאריך</th>
+                    <th>הגיע</th>
+                    <th>מחק</th>
+                </tr>
+            </thead>
+            <tbody id="skuTableBody">
+                <!-- SKU rows will be added dynamically here -->
+            </tbody>
+        </table>
+        <button id="exportBtn">ייצא ל-Excel</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
