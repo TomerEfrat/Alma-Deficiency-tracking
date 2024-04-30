@@ -37,67 +37,74 @@ header img {
     padding: 10px;
     margin-bottom: 10px;
     box-sizing: border-box;
+    color: black;
+    background-color: white;
+    border: 1px solid #ddd;
 }
 
 .input-section button {
-    background-color: rgb(49, 0, 49);
-    color: white;
-    padding: 10px 20px;
+    padding: 8px 15px;
+    background-color: #480051;
+    color: #fff;
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    font-family: Calibri
 }
 
 .input-section button:hover {
-    background-color: darkpurple;
+    background-color:  #48005180;
 }
 
 #skuList {
-    display: none;
-    position: absolute;
-    width: calc(100% - 22px); /* Adjust based on input field padding and border */
-    background-color: #f9f9f9;
-    border: 1px solid #ddd;
-    max-height: 200px;
+    position: relative;
+    background-color: #fff;
+    border-top: none;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
+    max-height: 150px;
     overflow-y: auto;
-    z-index: 1;
 }
 
 #skuList div {
-    padding: 10px;
+    padding: 5px;
     cursor: pointer;
 }
 
 #skuList div:hover {
-    background-color: #ddd;
+   background-color: #f9f9f9;
 }
 
 table {
     width: 100%;
     border-collapse: collapse;
+    margin-top: 20px;
 }
 
 th, td {
-    border: 1px solid #ddd;
+    bborder: 1px solid #ddd;
     padding: 8px;
     text-align: center;
 }
 
 th {
-    background-color: rgb(49, 0, 49);
-    color: white;
+    bbackground-color: #f2f2f2;
+    color: black;
 }
 
 #exportBtn {
-    margin-top: 10px;
-    background-color: rgb(2, 112, 98);
-    color: white;
-    padding: 10px 20px;
+    margin-top: 20px;
+    padding: 8px 15px;
+    background-color: #02889ae9;
+    color: #fff;
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    font-family: Calibri
 }
 
 #exportBtn:hover {
-    background-color: darkpurple;
+    background-color: #02889a79;
 }
