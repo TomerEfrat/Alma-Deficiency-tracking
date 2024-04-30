@@ -80,15 +80,8 @@ header img {
 }
 
 table {
-    width: 100%;
-    padding: 10px;
-    margin-top: 5px;
-    box-sizing: border-box;
-    color: black;
-    background-color: white;
-    border: 1px solid #ddd;
-    display: none;
-  
+    width: 100%; 
+    border-collapse: collapse; 
 }
 
 th, td {
